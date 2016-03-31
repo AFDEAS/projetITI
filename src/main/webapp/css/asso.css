@@ -1,0 +1,772 @@
+body{
+	background-color: white;
+	text-align: center;
+	position: center;
+	width: 100%;
+	min-width:300px;
+	max-width:1024px;
+}
+
+
+#Eau{
+	position:relative;
+	display: block;
+	left:-250px;
+	top:-40px;
+
+}
+
+
+
+
+
+header #AFDEAS{
+	text-align: left;
+	left: 23px;
+	top: -80px;
+	display:inline-block;
+	position: relative;
+	z-index:3;
+
+}
+
+
+
+
+header{
+	width:99%;
+	position: center;
+	position: absolute;
+	height: 80px;
+	top: 10px;
+	background-color: #899B8D;
+	min-width:940px;
+}
+
+header a{
+	text-decoration:none;
+}
+
+header #rectangle{
+	
+	z-index:5;
+	top: 50px;
+	left: 0;
+	height: 80px;
+	width: 99%;
+	background-color: #899B8D;
+}
+
+
+#menu{
+	margin: 10px auto 0 auto;
+	position: absolute;
+	top: 10px;
+	left: 50%;
+	margin-left : -485px; 
+	visibility:hidden;
+}
+#menu_v{
+	margin: 10px auto 0 auto;
+	position: absolute;
+	top: 10px;
+	left: 50%;
+	margin-left : -485px; 
+	display:true;
+}
+
+.menu_icone{
+width: 90px;
+height: 90px;
+background: url(../img/Menu_icone2.png) no-repeat;
+background-size: 40px 40px;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+
+}
+
+#sous_menu{
+	display:none;
+ margin-top: 10px;
+}
+
+
+div#menu_v:hover #sous_menu {
+display:block;
+}
+
+#sous_menu div{
+	height:30px;
+	width:200px;
+	padding: 1px 0px 1px 0px;
+	background:#404040;
+	color:#fff;
+}
+
+#sous_menu a{
+	display:block;
+	width:100%;
+	height:100%;
+	color:#fff;
+	font-family:;
+	font-size:50%;
+	font-weight:bold;
+	text-align:center;
+	text-decoration:none;
+	background:#808080;
+}
+
+#sous_menu a:hover{
+	background:#02020A;
+}
+
+header .part{
+	top:-120px;
+	z-index:2;
+	display:inline-block;
+	position: relative;
+	left:10px;
+	
+	width: 71px;
+	color: white;
+	background-color: #899B8D;
+	height: 60px;
+	position: relative;
+	border-left-width: 1px;
+	border-left-color: white;
+	border-left-style: solid;
+	text-align: center;
+}
+
+.part:hover h2{
+	background-color: #89AB9D;
+}
+
+header .part_i{
+	visibility:hidden;
+}
+
+h2{
+	color: white;
+	font-size: 15px;
+}
+
+header #part1{
+	width:61px;
+	margin-left:10px;
+}
+
+header #part2{}
+
+header #part3{
+	width:91px;
+}
+
+header #part4{}
+
+header #part5{
+	width:81px;
+}
+
+header #part6{
+	width:91px;
+}
+
+
+header #part7{
+	width:91px;
+	border-right-width: 1px;
+	border-right-color: white;
+	border-right-style: solid;
+}
+
+
+
+
+#globalcontent{
+	position: absolute;
+	vertical-align:50%;
+	left: 5%;
+	
+	min-width:502px;
+	width:90%;
+	
+}
+
+#content{
+	position: relative;
+	display:inline-block;
+	min-width:890px;
+	width:90%;
+}
+
+
+
+
+
+
+
+<!--  ACCUEIL ASSO{}  -->
+
+#globalcontent #col-01{
+	position: relative;
+	display: inline-block;
+	width:55%;
+	left:00px;
+	max-width:600px;
+	min-width:500px;
+	text-align:left;
+}
+
+#titre_01{
+	position: relative;
+	height: 75px;
+	text-align: center;
+	font-size: 13px;
+}
+
+
+#corps_01{
+	text-align:left;
+	position:relative;
+	width:90%;
+}
+
+
+
+
+
+
+
+#ligneverticale{
+position: relative;
+display:inline-block;
+width: 2px;
+height: 392px;
+background-color: #899B8D;
+top:200px;
+}
+
+
+
+
+
+
+#globalcontent #col-02{
+	position: relative;
+	display: inline-block;
+	width:35%;
+	min-width:200px;
+	text-align:left;
+	top:50px;
+}
+
+
+
+
+#titre_02{
+	position:relative;
+	left:10px;
+}
+
+#corps_02{
+	position:relative;
+	left: 40px;
+}
+
+.asso_acc_ligne{
+	display:inline;
+}
+
+
+
+
+
+
+
+
+<!--  PRODUCTEURS ASSO{}  -->
+
+#btn_ajout_producteur{
+	width:200px;
+	vertical-align:40%;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin-top:40px;
+	margin-bottom:40px;
+}
+
+
+
+
+
+
+
+
+<!--  AJOUT PRODUCTEURS ASSO{} -->
+
+
+#corps_ajout_prod{
+	position:absolute;
+	top:50px;
+	left:-70%;
+	min-width:800px;
+}
+
+#ajout_prod{
+	min-width:400px;
+	text-align:left;
+	margin-top: 50px;
+	position:relative;
+	
+}
+
+.produits_prod_titre{
+	display:inline-block;
+	margin-left:10%;
+}
+
+.produits_prod_surf{
+	display:inline-block;
+	margin-left: 25%; 
+}
+
+.produits_prod_nom{
+	dispay:block;
+	position:relative;
+	text-align:left;
+	left:30%;
+	top:-20px;
+	width:150px;
+}
+
+.produits_prod_surface{
+	dispay:block;
+	position:relative;
+	text-align:left;
+	margin-left:60%;
+	top:-20px;
+	width:150px;
+}
+
+#produits_prod_suppl{
+	text-align:right;
+}
+
+#ajout_village_prod{
+	display:inline-block;
+	margin-left:45%;
+}
+
+.update_bout_lien{
+	display:inline-block;
+}
+
+
+
+
+<!-- AJOUT VILLAGE ASSO{}  -->
+
+#ajout_vill{
+	min-width:400px;
+	text-align:left;
+	margin-top: 50px;
+	position:relative;
+	
+}
+
+
+
+
+
+
+
+
+
+<!--  RESTAURATEURS ASSO{} -->
+
+#btn_ajout_restaurateur{
+	width:200px;
+	vertical-align:40%;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin-top:40px;
+	margin-bottom:40px;
+}
+
+.contour_contact{
+	padding-top:50px;
+	padding-left:20%;
+	padding-right:20%;
+}
+
+.item_contact{
+	min-width:500px;
+	position:relative;
+	padding-top: 15px;
+	padding-left:10%;
+	padding-right:10%;
+	padding-bottom:15px;
+	border-style:double;
+	border-color:black;
+	border-width:1px;
+	background-color:#EEEEEE;
+	text-align:left;
+}
+
+.image_contact{
+	display:inline-block;
+	position:relative;
+	left: -60px;
+	width: 20%;
+}
+
+.text_contact{
+	display:inline-block;
+	width:60%;
+}
+
+.nom_contact{
+	display:inline-block;
+}
+
+.prenom_contact{
+	display:inline-block;
+}
+
+.mail_contact{
+	display:inline-block;
+}
+
+.adress_contact{
+	display:inline-block;
+}
+
+.desc_contact{
+	display:inline-block;
+}
+
+.buttons_contact{
+	display:inline-block;
+	width:15%;
+}
+
+.button_contact{
+	display:block;
+	margin-bottom:25px;
+	margin-left:40%;
+	width:100%;
+}
+
+
+
+
+<!--  AJOUT RESTAURATEUR ASSO{}  -->
+
+#corps_ajout_rest{
+	position:absolute;
+	top:50px;
+	left:-70%;
+	min-width:800px;
+}
+
+#ajout_rest{
+	min-width:400px;
+	text-align:left;
+	margin-top: 50px;
+	position:relative;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- CATALOGUE ASSO{} -->
+
+#col_00{
+	position:relative;
+	top:100px;
+	text-align:center;
+}
+
+#titre_00{
+	position:relative;
+	display:inline-block;
+}
+
+#ajout_produit{
+	width:120px;
+	position:relative;
+	display:inline-block;
+	margin-right:5%;
+	margin-left:50px;
+}
+
+#corps_catalogue{
+	position:relative;
+	width:60%;	
+	top: 10px;
+}
+
+#barre{
+	position:relative;
+	top:0px;
+	width: 100%;
+	height: 2px;
+	background-color: lightgrey;
+}
+
+#barre_ong_catalogue{
+	position:relative;
+}
+
+.item_barre_catalogue{
+	position:relative;
+	display:inline-block;
+	width: 96px;
+	heigth:15px;
+	background-color: #DDDDDD;
+	border-style:double;
+	border-width:1px;
+	border-color: #888888;
+	top:-0px;
+	z-index:1;
+}
+.item_barre_catalogue:hover{
+	border-left-color:#BBAAAA;
+	border-top-color:#BBAAAA;
+	border-bottom-color:#885555;
+	border-right-color: #885555;
+	background-color:#DDEEEE;
+	cursor:pointer;
+}
+#i_b_ca_1_s{
+	background-color: #33AAAA;
+}
+#i_b_ca_2_s{
+	background-color: #33AAAA;
+}
+#i_b_ca_3_s{
+	background-color: #33AAAA;
+}
+#i_b_ca_4_s{
+	background-color: #33AAAA;
+}
+#i_b_ca_5_s{
+	background-color: #33AAAA;
+}
+#i_b_ca_6_s{
+	background-color: #33AAAA;
+}
+
+#rech_catalogue{
+	position:relative;
+	left: 20px;
+	z-index:1;
+}
+
+#cat{
+	top:30px;
+	width:100%;
+	text-align:left;
+	position:relative;
+	left:2%;
+}
+
+.item_cat{
+	position:relative;
+	visibility:true;
+	width:28%;
+	min-width: 150px;
+	padding-right:5%;
+	display:inline-block;
+	padding-bottom:30px;	
+}
+
+.item_cat_i{
+	position:absolute;
+	visibility:hidden;
+}
+
+.inner_item{
+	padding-top: 5%;
+	padding-left:10%;
+	padding-right:10%;
+	padding-bottom:5%;
+	border-style:double;
+	border-color:black;
+	border-width:1px;
+	background-color:#EEEEEE;
+}
+.inner_item:hover{
+	border-left-color:#BBAAAA;
+	border-top-color:#BBAAAA;
+	border-bottom-color:#885555;
+	border-right-color: #885555;
+	background-color:#DDEEEE;
+	cursor:pointer;
+}
+
+  .nom_produit{
+ 	display: inline-block;
+ }
+  .desc_produit{
+ 	display: inline-block;
+ }
+  .disp_produit{
+ 	display: inline-block;
+ }
+  .q_produit{
+ 	display: inline-block;
+ }
+ 
+ 
+ 
+#detail_item_background{
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background-color:#CCCCCC;
+	opacity:0.6;
+	z-index:3;
+}
+.background_v{
+	visibility:true;
+}
+.background_i{
+	visibility:hidden;
+}
+
+#detail_item_window{
+	opacity:1.4;
+	position:fixed;
+	left:25%;
+	
+	top:50px;
+	min-width:400px;
+	padding-left:10%;
+	padding-right:10%;
+	padding-top:30px;
+	padding-bottom:30px;
+	background-color:#FFFFFF;
+	border-style:double;
+	border-width:1px;
+	border-color:black;
+	z-index:4;
+}
+.w_v{
+	visibility:true;
+}
+.w_i{
+	visibility:hidden;
+}
+
+#detail_item_close{
+	position:absolute;
+	top:5px;
+	right:5px;
+	width:30px;
+	height:20px;
+}
+#detail_item_close img{
+	width:100%;
+	height:100%;
+}
+
+.detail_item_li{
+	display:inline-block;
+}
+
+#detail_item_titre{
+	font-size:20px;
+}
+
+
+
+
+<!-- PRODUIT ASSO{}  -->
+
+#barre_ong_produit{
+	position:relative;
+	top:50px;
+}
+
+#corps_update{
+	position:absolute;
+	top: 50px;
+	left:-100%;
+	min-width:800px;
+	
+}
+
+#update_pdt{
+	min-width:400px;
+	text-align:left;
+	top: 100px;
+	position:relative;
+	
+}
+
+.update_ligne{
+	display:inline-block;
+	left:32%;
+	text-align:left;
+	position:relative;
+	margin-bottom:5px;
+}
+
+.update_bout{
+	display:block;
+	position:relative;
+	text-align:left;
+	left:52%;
+	top:-25px;
+	width:150px;
+}
+
+#valid_update{
+	display:block;
+	left:45%;
+	width:10%;
+	position:relative;
+}
+
+
+#corps_ajout{
+	position:absolute;
+	top: 50px;
+	left:-100%;
+	min-width:800px;
+}
+
+#ajout_pdt{
+	min-width:400px;
+	text-align:left;
+	top: 100px;
+	position:relative;
+	
+}
+
+#valid_ajout{
+	display:block;
+	left:45%;
+	width:10%;
+	position:relative;
+	margin-bottom:100px;
+}
+
+.c_i{
+	visibility:hidden;
+}
