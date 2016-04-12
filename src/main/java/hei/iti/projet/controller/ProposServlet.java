@@ -33,7 +33,7 @@ public class ProposServlet extends HttpServlet {
 		
 		request.getSession().setAttribute("photoPropos", listephoto.get(0));
 		
-		RequestDispatcher view	= request.getRequestDispatcher("propos.jsp");
+		RequestDispatcher view	= request.getRequestDispatcher("jsp/propos.jsp");
 		view.forward(request,response);
 	}
 

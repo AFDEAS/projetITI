@@ -40,7 +40,7 @@ public class RestAccServlet extends HttpServlet {
 		
 		request.getSession().setAttribute("restaurateur", restaurateur);
 		
-		RequestDispatcher view	= request.getRequestDispatcher(	"rest_accueil.jsp");
+		RequestDispatcher view	= request.getRequestDispatcher(	"jsp/rest_accueil.jsp");
 		view.forward(request,response);
 	
 		

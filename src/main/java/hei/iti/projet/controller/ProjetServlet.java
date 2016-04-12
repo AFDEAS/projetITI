@@ -35,7 +35,7 @@ public class ProjetServlet extends HttpServlet {
 		request.getSession().setAttribute("listPhoto", listephoto);
 		
 		
-		RequestDispatcher view	= request.getRequestDispatcher(	"projet.jsp");
+		RequestDispatcher view	= request.getRequestDispatcher(	"jsp/projet.jsp");
 		view.forward(request,response);
 	}
 

@@ -195,18 +195,19 @@
 
 
 			<div id="corps_02">
-
-				<div class="rest_pan_ligne">  <div class="rest_pan_nom">Riz</div> x<div class="rest_pan_quant">100</div>kg <div class="rest_pan_prix"><div class="rest_pan_p">70</div>Euros</div> </div> <br/> 
-
-				<div class="rest_pan_ligne">  <div class="rest_pan_nom">Poisson</div> x<div class="rest_pan_quant">100</div>kg <div class="rest_pan_prix"><div class="rest_pan_p">70</div>Euros</div> </div> <br/> 
-
-				<div class="rest_pan_ligne">  <div class="rest_pan_nom">Patate</div> x<div class="rest_pan_quant">100</div>kg <div class="rest_pan_prix"><div class="rest_pan_p">70</div>Euros</div> </div> <br/> 
-				
+				<table id="recap_command">
+				 	<ul class="rest_pan_ligne">  <li class="rest_pan_nom">Riz</li> <li class="rest_pan_quant">100kg</li> <li class="rest_pan_prix">70E</li> </ul>  
+				 
+				 	<ul class="rest_pan_ligne">  <li class="rest_pan_nom">Poisson</li> <li class="rest_pan_quant">100kg </li> <li class="rest_pan_prix">70E</li> </ul>  
+				 
+				 	<ul class="rest_pan_ligne">  <li class="rest_pan_nom">Patate</li> <li class="rest_pan_quant">100kg </li> <li class="rest_pan_prix">70E</li> </ul>  
+				 </ul>
+				</table>
 				<br/>
 				<div id="barre_pan"></div>
 				<br/>
 								
-				<div class="rest_acc_ligne">Total: <div id="rest_pan_montant" class="rest_pan_prix"><div class="rest_pan_p">210</div>Euros</div></div> </p> <br/>
+				<ul class="rest_acc_ligne"> <li class="rest_pan_nom">Total:</li> <li class="rest_pan_quant">300kg </li> <li id="rest_pan_montant" class="rest_pan_prix">210E</li></ul> <br/>
 
 				<p>
 					<input type="button" id="validcommanderestau" value="Valider la commande" />

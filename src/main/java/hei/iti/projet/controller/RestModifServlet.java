@@ -29,7 +29,7 @@ public class RestModifServlet extends HttpServlet {
 		
 		
 		request.getSession().setAttribute("restaurateur", restaurateur);
-		RequestDispatcher view	= request.getRequestDispatcher(	"rest_modif.jsp");
+		RequestDispatcher view	= request.getRequestDispatcher(	"jsp/rest_modif.jsp");
 		view.forward(request,response);
 	
 	

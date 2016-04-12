@@ -12,7 +12,7 @@
 		 	function deco(){
 
 		 		if(confirm("Voulez vous vraiment vous deconnecter? Vous perdrez toutes les modifications non enregistrees.")){
-		 			document.location='/ProjetITI/deconnexion';
+		 			document.location='/ProjetITI/deconnecter';
 		 		};
 		 	}
 		 </script>

@@ -29,7 +29,7 @@ public class RestContactServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
-		RequestDispatcher view	= request.getRequestDispatcher(	"rest_contact.jsp");
+		RequestDispatcher view	= request.getRequestDispatcher(	"jsp/rest_contact.jsp");
 		view.forward(request,response);
 	
 	

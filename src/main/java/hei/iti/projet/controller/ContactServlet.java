@@ -25,7 +25,7 @@ public class ContactServlet extends HttpServlet {
     }
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		RequestDispatcher view	= request.getRequestDispatcher(	"contact.jsp");
+		RequestDispatcher view	= request.getRequestDispatcher(	"jsp/contact.jsp");
 		
 		List<Contact> listecontact = ContactManager.getInstance().listerContacts();
 		request.getSession().setAttribute("listecontact", listecontact);

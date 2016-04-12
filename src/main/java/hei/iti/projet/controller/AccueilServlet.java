@@ -51,7 +51,7 @@ public class AccueilServlet extends HttpServlet {
 			System.out.println("Coucou");
 		}
 
-		RequestDispatcher view	= request.getRequestDispatcher("accueil.jsp");
+		RequestDispatcher view	= request.getRequestDispatcher("jsp/accueil.jsp");
 		view.forward(request,response);
 	}
 

@@ -33,7 +33,7 @@ public class RestCatalogServlet extends HttpServlet {
 		request.getSession().setAttribute("listeproduit", listeproduit);
 		
 		
-		RequestDispatcher view	= request.getRequestDispatcher(	"rest_catalogue.jsp");
+		RequestDispatcher view	= request.getRequestDispatcher(	"jsp/rest_catalogue.jsp");
 		view.forward(request,response);
 	
 	}

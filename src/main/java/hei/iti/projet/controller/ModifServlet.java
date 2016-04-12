@@ -69,7 +69,7 @@ public class ModifServlet extends HttpServlet {
 		
 		
 		
-		RequestDispatcher view	= request.getRequestDispatcher(	"modcontenu.jsp");
+		RequestDispatcher view	= request.getRequestDispatcher(	"jsp/modcontenu.jsp");
 		view.forward(request,response);
 	
 	

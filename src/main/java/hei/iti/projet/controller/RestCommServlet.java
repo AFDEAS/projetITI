@@ -24,7 +24,7 @@ public class RestCommServlet extends HttpServlet {
     
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-		RequestDispatcher view	= request.getRequestDispatcher(	"rest_commandes.jsp");
+		RequestDispatcher view	= request.getRequestDispatcher(	"jsp/rest_commandes.jsp");
 		view.forward(request,response);
 	}
 

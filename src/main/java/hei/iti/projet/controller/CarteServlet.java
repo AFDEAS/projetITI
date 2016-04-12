@@ -26,7 +26,7 @@ public class CarteServlet extends HttpServlet {
     }
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		RequestDispatcher view	= request.getRequestDispatcher(	"map.jsp");
+		RequestDispatcher view	= request.getRequestDispatcher(	"jsp/map.jsp");
 	
 		
 		List<VillageVitrine> listevillage = VillageVitrineManager.getInstance().recupererVillages();
