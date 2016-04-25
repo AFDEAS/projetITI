@@ -5,7 +5,7 @@
 <meta charset="UTF-8" />
 <link type="text/css" rel="stylesheet" href="css/asso.css" />
 <link rel="icon" href="img/eau.ico" />
-<script src="js/asso_catal.js" type="application/javascript"></script>
+<script src="js/asso_fichesprod.js" type="application/javascript"></script>
 
 </head>
 
@@ -30,23 +30,17 @@
 	 		<span id="col_00">
 			<div id="titre_00">
 					<h1>
-						Bienvenue dans le catalogue
+						Bienvenue dans les fiches produit
 					<h1>
 			</div>
 		
-			<a href="produit_association"><button id="ajout_produit">Ajouter un produit</button></a>
+			<a href="produit_association"><button id="ajout_produit">Ajouter une fiche produit</button></a>
 		
 			<div id="barre"></div>
 		
 			<span id="corps_catalogue">
 			 
 				<div id="barre_ong_catalogue">
-					<div class="item_barre_catalogue" id="i_b_ca_1">Legumes</div>
-					<div class="item_barre_catalogue" id="i_b_ca_2">Fruits</div>
-					<div class="item_barre_catalogue" id="i_b_ca_3">Viandes</div>
-					<div class="item_barre_catalogue" id="i_b_ca_4">Poissons</div>
-					<div class="item_barre_catalogue" id="i_b_ca_5">Autre</div>
-					<div class="item_barre_catalogue" id="i_b_ca_6_s">Tout</div>
 					<input id="rech_catalogue" type="text" placeholder="Rechercher un produit">
 					<button id="bouttonok">ok!</button>
 				</div>
@@ -59,7 +53,7 @@
 	 			
 	 		</span>
 	 		
-	 		<%@include file="../html/asso_catalogue_popup.html"%>
+	 		<%@include file="../html/asso_fichprod_popup.html"%>
 	 	
 	 	</span>
 	 </span>

@@ -1038,12 +1038,17 @@ top:200px;
 	width:35%;
 	
 	min-width:200px;
-	top:50px;
+	top:200px;
 	display:inline-block;
 	text-align:left;
 }
 
-
+#corps_03{
+	position:relative;
+	top:30px;
+	left: 10%;
+	width: 90%;
+}
 
 .contour_item_pan{
 	position:relative;
@@ -1110,23 +1115,24 @@ top:200px;
 }
 
 #recap_command{
-	width:100%;
+	width:80%;
 }
 
 .rest_pan_ligne{
 	display:inline-block;
-	width: 100%;
-	min-width:200px;
+	width: 80%;
+	
 }
 
 .rest_pan_nom{
 	display:inline-block;
-	width: 50%;
+	width: 40%;
 }
 
 .rest_pan_quant{
 	display:inline-block;
 	width:20%;
+	min-width:20px;
 }
 
 
@@ -1134,6 +1140,7 @@ top:200px;
 	text-align:right;
 	display:inline-block;
 	width:27%;
+	min-width:20px;
 }
 
 #barre_pan{

@@ -194,7 +194,7 @@
 			</div>
 
 
-			<div id="corps_02">
+			<div id="corps_03">
 				<table id="recap_command">
 				 	<ul class="rest_pan_ligne">  <li class="rest_pan_nom">Riz</li> <li class="rest_pan_quant">100kg</li> <li class="rest_pan_prix">70E</li> </ul>  
 				 
@@ -207,7 +207,7 @@
 				<div id="barre_pan"></div>
 				<br/>
 								
-				<ul class="rest_acc_ligne"> <li class="rest_pan_nom">Total:</li> <li class="rest_pan_quant">300kg </li> <li id="rest_pan_montant" class="rest_pan_prix">210E</li></ul> <br/>
+				<ul class="rest_pan_ligne"> <li class="rest_pan_nom">Total:</li> <li class="rest_pan_quant">300kg </li> <li id="rest_pan_montant" class="rest_pan_prix">210E</li></ul> <br/>
 
 				<p>
 					<input type="button" id="validcommanderestau" value="Valider la commande" />

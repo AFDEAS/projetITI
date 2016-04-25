@@ -83,8 +83,34 @@
 					
 				</div>
 				
-				<a id="produits_prod_suppl" class="produits_prod_nom">Plus...</a> <br/>
+				<a id="produits_prod_suppl" class="produits_prod_nom" onclick="Add_prdt()">Plus...</a> <br/>
+				
+				<script type="text/javascript">
+				function Add_prdt(){
+					var elem1 = document.createElement("select");
+					elem1.className("produits_prod_nom");
+					var opt0 = document.createElement("option");
+					var opt1 = document.createElement("option");
+					var opt2 = document.createElement("option");
+					var t0 = document.createTextNode("Choissez une option");
+					var t1 = document.createTextNode("Riz");
+					var t2 = document.createTextNode("Carottes");
+					opt0.appendChild(t0);
+					opt1.appendChild(t1);
+					opt2.appendChild(t2);
+					elem1.appendChild(opt0);
+					elem1.appendChild(opt1);
+					elem1.appendChild(opt2);
 					
+					document.body.appendChild(elem1);
+					
+					var elem2 = document.createElement("input");
+					elem2.className("produits_prod_surface");
+					
+					document.body.appendChild(elem2);
+				}
+				
+				</script>	
 				
 				<div class="update_ligne">Image :  </div>
 				<input id="ajout_photo_prod" class="fileupload update_bout" type="file" size="25"	name="photo_produit">

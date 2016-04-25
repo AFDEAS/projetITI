@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 body{
 	background-color: white;
 	text-align: center;
@@ -281,6 +283,53 @@ top:200px;
 
 
 
+
+
+
+
+
+<!--  COMPTES ASSO{}  -->
+
+#comptes_tri{
+	position:relative;
+	display: block;
+}
+
+#livre_compte{
+	position: relative;
+	left: 25%;
+	border-style:solid;
+	border-width:1px;
+	border-colore:black;
+	width:50%;
+	min-width:600px;
+	border-collapse:collapse;
+}
+
+#livre_compte th{
+	border-left-style:solid;
+	border-left-width:1px;
+	border-left-color:black;
+	padding-left:0;
+	padding-top:0;
+	padding-right:0;
+	padding-bottom:0;
+	
+	background-color:#999999;
+}
+
+#livre_compte td{
+	border-left-style:solid;
+	border-left-width:1px;
+	border-left-color:black;
+	padding-left:0;
+	padding-top:0;
+	padding-right:0;
+	padding-bottom:0;
+	margin-top:0;
+	margin-bottom:0;
+	background-color:#EEEEEE;
+}
 
 
 
@@ -770,3 +819,213 @@ top:200px;
 .c_i{
 	visibility:hidden;
 }
+
+
+
+
+
+
+<!-- COMMANDES ASSO{}  -->
+
+
+#liste_commandes{
+	position:relative;
+	top:100px;
+}
+
+
+#barre_ong_command{
+	top:00px;
+	
+	position:relative;
+}
+
+
+.item_barre_command{
+	position:relative;
+	display:inline-block;
+	width: 96px;
+	heigth:15px;
+	background-color: #DDDDDD;
+	border-style:double;
+	border-width:1px;
+	border-color: #888888;
+	top:-0px;
+	z-index:1;
+}
+.item_barre_command:hover{
+	border-left-color:#BBAAAA;
+	border-top-color:#BBAAAA;
+	border-bottom-color:#885555;
+	border-right-color: #885555;
+	background-color:#DDEEEE;
+	cursor:pointer;
+}
+#i_b_co_1{
+	background-color: #DDDDDD;
+}#i_b_co_2{
+	background-color: #DDDDDD;
+}#i_b_co_3{
+	background-color: #DDDDDD;
+}#i_b_co_1_s{
+	background-color: #33AAAA;
+}#i_b_co_2_s{
+	background-color: #33AAAA;
+}#i_b_co_3_s{
+	background-color: #33AAAA;
+}
+
+#comm{
+	top:20px;
+	width:60%;
+	left:20%;
+	text-align:center;
+	position:relative;
+	
+}
+
+
+.item_comm{
+	padding-bottom:50px;
+	display:inline-block;
+	min-width:300px;
+	width:50%;
+	position:relative;
+	left:-20%;
+}
+
+.item_comm.attente{
+	visibility:true;
+}
+.item_comm_i.attente{
+	position:absolute;
+	visibility:hidden;
+}
+
+.item_comm.encours{
+	visibility:true;
+}
+.item_comm_i.encours{
+	position:absolute;
+	visibility:hidden;
+}
+
+.item_comm.historique{
+	visibility:true;
+}
+.item_comm_i.historique{
+	position:absolute;
+	visibility:hidden;
+}
+
+
+.inner_comm{
+	padding-top: 10px;
+	
+	top:30px;
+	padding-bottom:10px;
+	border-style:double;
+	border-color:black;
+	border-width:1px;
+	background-color:#EEEEEE;
+}
+ 
+  .prix_produit{
+ 	display: inline-block;
+ }
+  .dateliv{
+ 	display: inline-block;
+ }
+ 
+
+.btn_detail{
+	position:relative;
+	width:10%;
+	left:45%;
+	z-index:1;
+	border-style:double;
+	border-color:black;
+	border-width:1px;
+	background-color:#FFFFFF;
+}
+.btn_detail:hover{
+	border-left-color:#BBAAAA;
+	border-top-color:#BBAAAA;
+	border-bottom-color:#885555;
+	border-right-color: #885555;
+	background-color:#DDEEEE;
+	cursor:pointer;
+}
+
+.valid{
+	color:green;
+}
+
+.retard{
+	color:red;
+}
+
+
+#detail_comm_window{
+	opacity:1.4;
+	position:fixed;
+	left:25%;
+	
+	top:150px;
+	min-width:400px;
+	padding-left:10%;
+	padding-right:10%;
+	padding-top:30px;
+	padding-bottom:30px;
+	background-color:#FFFFFF;
+	border-style:double;
+	border-width:1px;
+	border-color:black;
+	z-index:4;
+}
+
+.detail_comm_etat{
+	font-size:10px;
+	display:inline-block;
+}
+
+#detail_item_titreR{
+	font-size:20px;
+}
+#detail_item_titreP{
+	font-size:20px;
+}
+#detail_item_resume{
+	font-size:15px;
+}
+
+#detail_item_date{
+	position:relative;
+	display:inline-block;
+}
+
+#detail_item_adress{
+	position:relative;
+	display:inline-block;
+}
+
+.commande_button_large{
+	position:relative;
+	display:inline;
+	width:200px;
+}
+.commande_button_demi{
+	position:relative;
+	display:inline-block;
+	width:90px;
+	padding-right:10px;
+	padding-left:10px;
+}
+
+
+
+
+
+<!--  FICHES PRODUIT ASSO{}  -->
+
+
